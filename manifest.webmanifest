@@ -1,15 +1,83 @@
 {
+  "id": "./",
   "name": "ФЭМ СПбГТИ(ТУ) — Приём 2026",
   "short_name": "ФЭМ 2026",
-  "description": "Программы, экзамены, скидки и сроки приёма ФЭМ СПбГТИ(ТУ)",
+  "description": "Программы, экзамены, скидки, сроки и контакты приёмной комиссии ФЭМ.",
   "lang": "ru",
-  "start_url": "./index.html",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
   "background_color": "#f5f5f7",
-  "theme_color": "#f5f5f7",
+  "theme_color": "#0071e3",
+  "categories": [
+    "education",
+    "reference"
+  ],
   "icons": [
-    {"src":"icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
-    {"src":"icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Программы",
+      "short_name": "Программы",
+      "url": "./#programs",
+      "icons": [
+        {
+          "src": "icons/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Сроки",
+      "short_name": "Сроки",
+      "url": "./#dates",
+      "icons": [
+        {
+          "src": "icons/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Контакты",
+      "short_name": "Контакты",
+      "url": "./#contacts",
+      "icons": [
+        {
+          "src": "icons/icon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
   ]
 }
