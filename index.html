@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#07101f">
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="ФЭМ Приём">
+  <title>ФЭМ СПбГТИ(ТУ) — приём 2026</title>
+  <link rel="manifest" href="manifest.webmanifest?v=dark-final-20260627">
+  <link rel="icon" href="icon.svg?v=dark-final-20260627">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=dark-final-20260627">
+  <style>
+
+:root{--bg:#edf4ff;--text:#0d1424;--muted:#60708b;--card:rgba(255,255,255,.64);--card2:rgba(255,255,255,.42);--line:rgba(22,35,64,.12);--blue:#0b5cff;--cyan:#00a7ff;--green:#28c76f;--violet:#7c3aed;--shadow:0 28px 90px rgba(16,70,160,.18);--radius:30px;--blur:blur(24px)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--text);background:radial-gradient(circle at 10% 0,#cfe6ff 0,transparent 32%),radial-gradient(circle at 90% 12%,#e0dbff 0,transparent 30%),linear-gradient(135deg,#f8fbff,#eaf3ff 52%,#f7fbff);overflow-x:hidden}body.dark{--bg:#060912;--text:#f7f9ff;--muted:#9ca8bd;--card:rgba(12,19,33,.70);--card2:rgba(255,255,255,.06);--line:rgba(255,255,255,.12);--shadow:0 28px 90px rgba(0,0,0,.38);background:radial-gradient(circle at 8% 0,#08376a 0,transparent 34%),radial-gradient(circle at 90% 8%,#2d1f6c 0,transparent 32%),linear-gradient(135deg,#050813,#0a1020 58%,#050813)}
+a{color:inherit}.shell{width:min(1180px,calc(100% - 32px));margin-inline:auto}.glass{border:1px solid var(--line);background:linear-gradient(145deg,var(--card),var(--card2));backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);box-shadow:var(--shadow)}.bg-orb{position:fixed;border-radius:999px;filter:blur(8px);opacity:.45;pointer-events:none;z-index:-2}.orb-a{width:420px;height:420px;background:#70b8ff;left:-140px;top:-110px}.orb-b{width:420px;height:420px;background:#bca7ff;right:-160px;top:20px}.bg-grid{position:fixed;inset:0;z-index:-3;background-image:linear-gradient(rgba(0,0,0,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,.035) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to bottom,rgba(0,0,0,.7),transparent 70%)}.dark .bg-grid{background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px)}
+.topbar{position:sticky;top:14px;z-index:50;width:min(1180px,calc(100% - 24px));margin:12px auto 0;border-radius:28px;padding:10px;display:flex;align-items:center;justify-content:space-between;gap:14px}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:900;letter-spacing:-.02em}.logo{width:42px;height:42px;border-radius:16px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,var(--blue),var(--cyan));box-shadow:0 14px 34px rgba(11,92,255,.30);font-weight:1000}.navlinks{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}.navlinks a,.ghost{border:1px solid var(--line);background:rgba(255,255,255,.38);padding:10px 14px;border-radius:999px;text-decoration:none;font-weight:800;font-size:14px;color:var(--text);cursor:pointer}.dark .navlinks a,.dark .ghost{background:rgba(255,255,255,.06)}.round{width:42px;padding:10px 0}.hero{padding:78px 0 44px;display:grid;grid-template-columns:minmax(0,1.08fr) minmax(320px,.92fr);align-items:center;gap:26px}.eyebrow{display:inline-flex;align-items:center;gap:8px;width:max-content;max-width:100%;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.36);color:var(--muted);font-weight:850;font-size:14px}.dark .eyebrow{background:rgba(255,255,255,.06)}.hero h1{font-size:clamp(48px,8vw,104px);line-height:.88;letter-spacing:-.085em;margin:18px 0 18px}.hero h1 span{background:linear-gradient(120deg,var(--blue),var(--cyan),var(--green));-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:clamp(17px,2vw,23px);line-height:1.52;color:var(--muted);max-width:760px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:20px;padding:15px 19px;text-decoration:none;font-weight:950}.primary{background:linear-gradient(135deg,var(--blue),var(--cyan));color:#fff;box-shadow:0 20px 42px rgba(11,92,255,.26)}.soft{border:1px solid var(--line);background:var(--card);color:var(--text)}.hero-card{border-radius:34px;padding:18px;display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.metric{border:1px solid var(--line);border-radius:24px;padding:20px;background:rgba(255,255,255,.36)}.dark .metric{background:rgba(255,255,255,.05)}.metric strong{display:block;font-size:42px;line-height:1;letter-spacing:-.05em}.metric span{display:block;margin-top:8px;color:var(--muted);font-weight:800}.block{padding:46px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:20px}.section-head h2{font-size:clamp(32px,5vw,58px);line-height:.95;letter-spacing:-.055em;margin:10px 0 0}.section-head p:not(.eyebrow){max-width:640px;color:var(--muted);line-height:1.55}.toolbar{border-radius:28px;padding:14px;margin-bottom:18px;display:grid;gap:12px}.search{width:100%;border:1px solid var(--line);border-radius:20px;padding:15px 16px;background:rgba(255,255,255,.44);color:var(--text);outline:none;font-size:16px;font-weight:700}.dark .search{background:rgba(255,255,255,.06)}.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{border:1px solid var(--line);background:rgba(255,255,255,.42);border-radius:999px;padding:10px 14px;color:var(--text);font-weight:900;cursor:pointer}.dark .chip{background:rgba(255,255,255,.06)}.chip.active,.form-btn.active{background:linear-gradient(135deg,var(--blue),var(--cyan));color:#fff;border-color:transparent}.chip[disabled],.form-btn[disabled]{opacity:.38;cursor:not-allowed;filter:saturate(.2)}.small .chip{padding:8px 12px;font-size:13px}.program-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.program{position:relative;overflow:hidden;border-radius:30px;padding:20px}.program:before{content:"";position:absolute;right:-50px;top:-50px;width:190px;height:190px;border-radius:999px;background:radial-gradient(circle,var(--cyan),transparent 65%);opacity:.16}.meta{display:flex;gap:8px;flex-wrap:wrap;position:relative}.pill{display:inline-flex;padding:6px 10px;border:1px solid rgba(11,92,255,.22);background:rgba(11,92,255,.08);color:var(--blue);border-radius:999px;font-weight:950;font-size:12px}.dark .pill{color:#9bc6ff}.program h3{font-size:clamp(25px,3vw,34px);line-height:1;letter-spacing:-.045em;margin:14px 0 10px;position:relative}.program .about{color:var(--muted);line-height:1.5;min-height:70px;position:relative}.form-picker{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0;position:relative}.form-btn{border:1px solid var(--line);background:rgba(255,255,255,.45);border-radius:999px;padding:9px 11px;font-weight:950;color:var(--text);cursor:pointer}.dark .form-btn{background:rgba(255,255,255,.06)}.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:16px 0;position:relative}.fact{border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.36);padding:12px;min-height:74px}.dark .fact{background:rgba(255,255,255,.05)}.fact small{display:block;color:var(--muted);font-weight:900;font-size:12px}.fact b{display:block;margin-top:4px;font-size:15px;line-height:1.16}.exams{position:relative;color:var(--muted);line-height:1.45}.more{display:inline-flex;margin-top:12px;position:relative;text-decoration:none;border-radius:16px;padding:12px 14px;background:linear-gradient(135deg,var(--blue),var(--cyan));color:#fff;font-weight:950}.fineprint{color:var(--muted);font-size:13px;line-height:1.45}.calc-card,.guide,.table-card,.time,.source,.install{border-radius:30px;padding:22px}.calc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.field span{display:block;font-weight:950;margin-bottom:8px}.field input,.field select{width:100%;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.44);color:var(--text);padding:14px;font-size:16px;outline:none}.dark .field input,.dark .field select{background:rgba(255,255,255,.06)}.result{display:grid;gap:4px;border:1px solid var(--line);border-radius:24px;padding:18px;background:linear-gradient(135deg,rgba(11,92,255,.13),rgba(40,199,111,.13));margin-top:14px}.result span{color:var(--muted);font-weight:900}.result strong{font-size:38px;letter-spacing:-.04em}.result em{font-style:normal;color:var(--muted)}.guide-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.guide h3,.table-card h3,.install h3{font-size:26px;line-height:1.05;letter-spacing:-.035em;margin:0 0 12px}.guide li{margin:10px 0;color:var(--muted);line-height:1.45}.mini-stats{display:flex;gap:8px;flex-wrap:wrap}.mini-stats span{border:1px solid var(--line);border-radius:16px;padding:8px 10px;background:rgba(255,255,255,.34);color:var(--muted);font-weight:800}.responsive-table{overflow:auto}table{width:100%;border-collapse:collapse;min-width:720px}th,td{text-align:left;padding:14px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.04em}.table-card{margin-top:16px}.timeline{display:grid;gap:12px}.time{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:start}.time b{font-size:20px;color:var(--blue)}.time span{color:var(--muted);line-height:1.45}.time strong{display:block;color:var(--text);margin-bottom:3px}.source-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.source{text-decoration:none;font-weight:950}.install{display:none;margin-top:16px}.install.show{display:block}.footer{padding:36px 0 94px;color:var(--muted);font-weight:700}.mobilebar{display:none}.empty{grid-column:1/-1;padding:24px;border-radius:26px}.mobilebar button{background:transparent;border:0;color:inherit;font:inherit}
+@media (max-width:940px){.topbar{align-items:flex-start}.navlinks a:nth-child(n+3),#installBtn{display:none}.hero{grid-template-columns:1fr;padding-top:54px}.program-grid{grid-template-columns:1fr}.guide-grid,.source-grid{grid-template-columns:1fr}.section-head{display:block}.calc-grid{grid-template-columns:1fr}.facts{grid-template-columns:repeat(2,1fr)}.hero-card{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:620px){.shell{width:min(100% - 22px,1180px)}.topbar{top:8px;border-radius:24px}.brand span:last-child{font-size:14px}.navlinks a{display:none}.ghost:not(.round){display:none}.hero h1{font-size:54px}.lead{font-size:16px}.hero-card{grid-template-columns:1fr 1fr}.metric{padding:15px;border-radius:20px}.metric strong{font-size:32px}.block{padding:32px 0}.program{padding:16px;border-radius:26px}.program .about{min-height:auto}.facts{grid-template-columns:1fr 1fr}.fact{padding:10px}.time{grid-template-columns:1fr;gap:6px}.mobilebar{position:fixed;left:10px;right:10px;bottom:10px;z-index:60;display:grid;grid-template-columns:repeat(4,1fr);border-radius:26px;padding:9px}.mobilebar a,.mobilebar button{display:grid;place-items:center;gap:2px;text-decoration:none;font-weight:950;font-size:18px}.mobilebar span{font-size:11px;color:var(--muted)}.footer{padding-bottom:110px}}
+
+
+/* Финальная чистая версия: защита от старой вёрстки и мобильных переполнений */
+html, body { width:100%; max-width:100%; overflow-x:hidden; }
+body { padding-bottom: env(safe-area-inset-bottom); }
+main, section, article, div, p, h1, h2, h3, a, button, input, select { min-width:0; }
+section[id] { scroll-margin-top: 112px; }
+.topbar { transform: translateZ(0); }
+.navlinks { min-width:0; }
+.program, .glass { isolation:isolate; }
+.program h3, .program .about, .exams, .fact b, .time span, .source { overflow-wrap:anywhere; }
+.btn, .source, .chip, .form-btn, .ghost { -webkit-tap-highlight-color: transparent; }
+.mobilebar { padding-bottom: max(9px, env(safe-area-inset-bottom)); }
+.footer { padding-bottom: calc(108px + env(safe-area-inset-bottom)); }
+@media (max-width:620px){
+  .topbar{position:sticky; top:max(8px, env(safe-area-inset-top)); width:calc(100% - 20px); margin-top:8px; padding:10px;}
+  .brand{max-width:calc(100% - 56px);}
+  .brand span:last-child{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .hero{padding-top:34px;}
+  .hero-actions{display:grid; grid-template-columns:1fr 1fr; gap:10px;}
+  .btn{padding:14px 12px; border-radius:18px; font-size:15px; text-align:center;}
+  .hero h1{font-size:clamp(48px,14vw,62px); letter-spacing:-.075em;}
+  .section-head h2{font-size:clamp(34px,11vw,48px);}
+  .toolbar{position:relative; z-index:2;}
+  .chips{overflow-x:auto; flex-wrap:nowrap; padding-bottom:2px; -webkit-overflow-scrolling:touch; scrollbar-width:none;}
+  .chips::-webkit-scrollbar{display:none;}
+  .chip,.form-btn{white-space:nowrap;}
+  .program-grid{gap:14px;}
+  .facts{grid-template-columns:1fr 1fr;}
+  .fact{min-height:76px;}
+  .source-grid{display:grid; grid-template-columns:1fr;}
+  .mobilebar{left:10px; right:10px; bottom:max(10px, env(safe-area-inset-bottom));}
+}
+@media (max-width:380px){
+  .hero-actions{grid-template-columns:1fr;}
+  .facts{grid-template-columns:1fr;}
+  .metric strong{font-size:28px;}
+  .metric span{font-size:13px;}
+  .mobilebar a,.mobilebar button{font-size:16px;}
+  .mobilebar span{font-size:10px;}
+}
+
+  </style>
+</head>
+<body class="dark">
+
+  <script>
+    window.__FEM_VERSION = 'dark-only-final-20260627-1146';
+    (function clearOldFempriemBuilds(){
+      try {
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.getRegistrations().then(function(regs){
+            regs.forEach(function(reg){ reg.unregister(); });
+          }).catch(function(){});
+        }
+        if ('caches' in window) {
+          caches.keys().then(function(keys){
+            keys.forEach(function(key){ caches.delete(key); });
+          }).catch(function(){});
+        }
+      } catch(e) {}
+    })();
+  </script>
+
+  <div class="bg-orb orb-a"></div><div class="bg-orb orb-b"></div><div class="bg-grid"></div>
+  <nav class="topbar glass">
+    <a class="brand" href="#top" aria-label="ФЭМ Приём">
+      <span class="logo">Ф</span><span>ФЭМ · Приём 2026</span>
+    </a>
+    <div class="navlinks">
+      <a href="#programs">Программы</a>
+      <a href="#calc">Скидки</a>
+      <a href="#guide">Шпаргалка</a>
+      <a href="#dates">Сроки</a>
+      <a href="#sources">Документы</a>
+      <button id="installBtn" class="ghost" type="button">Установить</button>
+      <button id="theme" class="ghost round" type="button" aria-label="Сменить тему">◐</button>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow">СПбГТИ(ТУ) · Факультет экономики и менеджмента</div>
+        <h1>Выберите<br><span>свой формат.</span></h1>
+        <p class="lead">Бакалавриат, магистратура и СПО с выбором формы обучения прямо внутри каждого направления: очная, очно-заочная и заочная — только там, где они есть в плане приёма.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#programs">Смотреть направления</a>
+          <a class="btn soft" href="#calc">Посчитать скидку</a>
+        </div>
+      </div>
+      <div class="hero-card glass">
+        <div class="metric"><strong>3</strong><span>уровня образования</span></div>
+        <div class="metric"><strong>3</strong><span>формы обучения</span></div>
+        <div class="metric"><strong id="countGroups">—</strong><span>программ и профилей</span></div>
+        <div class="metric"><strong>2026</strong><span>актуальная кампания</span></div>
+      </div>
+    </section>
+
+    <section id="programs" class="shell block">
+      <div class="section-head">
+        <div><p class="eyebrow">Образование</p><h2>Программы приёма</h2></div>
+        <p>Сначала выберите уровень, затем у каждой карточки переключайте форму обучения. Недоступные формы отключены, чтобы не путать абитуриента.</p>
+      </div>
+      <div class="toolbar glass">
+        <input id="search" class="search" type="search" placeholder="Поиск: финансы, PR, СПО, 38.03.05…">
+        <div id="levelFilters" class="chips"></div>
+        <div id="formFilters" class="chips small"></div>
+      </div>
+      <div id="cards" class="program-grid"></div>
+      <p class="fineprint">Важно: форма обучения меняет срок, стоимость, количество мест и дедлайн, но набор вступительных испытаний обычно зависит от направления и базы поступления.</p>
+    </section>
+
+    <section id="calc" class="shell block">
+      <div class="section-head">
+        <div><p class="eyebrow">Стоимость обучения</p><h2>Расчёт скидки</h2></div>
+        <p>Калькулятор оставлен в стиле предыдущей версии: выберите категорию, форму и укажите баллы. Результат ориентировочный.</p>
+      </div>
+      <div class="calc-card glass">
+        <div class="calc-grid">
+          <label class="field"><span>Категория программы</span><select id="calcCategory"><option value="standard">Экономика, менеджмент и другие направления</option><option value="pr">Реклама и связи с общественностью</option><option value="spo">Поступление после СПО</option><option value="master">Магистратура</option></select></label>
+          <label class="field"><span>Форма обучения</span><select id="calcForm"><option>Очная</option><option>Очно-заочная</option><option>Заочная</option></select></label>
+          <label class="field"><span>Сумма баллов ЕГЭ / средний балл</span><input id="score" type="number" step="0.1" placeholder="Например: 235 или 4.6"></label>
+          <label class="field"><span>Диплом СПО</span><select id="diploma"><option value="none">Нет диплома СПО</option><option value="spo">Обычный диплом СПО — 40%</option><option value="red-spo">Красный диплом СПО — 50%</option><option value="red">Диплом с отличием другого вуза</option><option value="spbti">Выпускник СПбГТИ(ТУ)</option><option value="fem-red">Красный диплом ФЭМ</option></select></label>
+        </div>
+        <p class="fineprint">Сумма баллов учитывается без индивидуальных достижений. Итоговая скидка подтверждается при заключении договора.</p>
+        <div class="result"><span>Ориентировочная стоимость</span><strong id="calcPrice">—</strong><em id="calcDesc"></em></div>
+      </div>
+    </section>
+
+    <section id="guide" class="shell block">
+      <div class="section-head"><div><p class="eyebrow">Кратко и по делу</p><h2>Шпаргалка абитуриента</h2></div><p>Основные вступительные испытания, минимальные баллы и порядок поступления — в одном разделе.</p></div>
+      <div class="guide-grid">
+        <article class="guide glass"><h3>После 11 класса</h3><ul><li>Русский язык — минимум 40 баллов.</li><li>Профильная математика — минимум 40 для направлений 38.xx.</li><li>Третий предмет выбирается из списка направления.</li></ul><div class="mini-stats"><span>Обществознание <b>45</b></span><span>История <b>40</b></span><span>Иностранный <b>40</b></span><span>Информатика <b>46</b></span></div></article>
+        <article class="guide glass"><h3>После СПО / ВО</h3><ul><li>Русский язык — обязательное испытание.</li><li>Профильный внутренний экзамен зависит от направления.</li><li>Для непрофильного СПО могут потребоваться результаты ЕГЭ.</li></ul><p class="fineprint">Соответствие профиля образования проверяется по официальному перечню вуза.</p></article>
+        <article class="guide glass"><h3>Магистратура и СПО</h3><ul><li>Магистратура: профильное испытание по направлению 38.04.02.</li><li>СПО: без ЕГЭ, конкурс среднего балла аттестата или диплома.</li><li>Форма обучения отображается отдельно в карточках.</li></ul></article>
+      </div>
+      <div class="table-card glass"><h3>Профильные испытания после СПО / ВО</h3><div class="responsive-table"><table><thead><tr><th>Направление</th><th>Профильное испытание</th><th>Дополнительное испытание</th></tr></thead><tbody><tr><td>Экономика / Финансовый менеджмент</td><td>Основы экономической теории</td><td>Основы экономики предприятий и организаций</td></tr><tr><td>Менеджмент / Маркетинг / Логистика</td><td>Основы менеджмента</td><td>Основы экономики предприятий и организаций</td></tr><tr><td>Реклама и связи с общественностью</td><td>Маркетинг в рекламе</td><td>Менеджмент и экономические основы рекламной деятельности</td></tr><tr><td>Управление персоналом</td><td>Основы управления персоналом</td><td>Основы экономики предприятий и организаций</td></tr><tr><td>Бизнес-информатика</td><td>Информационные технологии</td><td>Основы экономики предприятий и организаций</td></tr></tbody></table></div></div>
+    </section>
+
+    <section id="dates" class="shell block"><div class="section-head"><div><p class="eyebrow">Приёмная кампания</p><h2>Ключевые даты 2026</h2></div><p>Сроки вынесены отдельно, чтобы не потерять дедлайны по подаче документов, внутренним испытаниям и договорам.</p></div><div class="timeline"><div class="time glass"><b>20 июня</b><span><strong>Старт приёма документов</strong>Высшее образование и СПО.</span></div><div class="time glass"><b>10 августа</b><span><strong>Документы для внутренних испытаний</strong>Для поступающих на бакалавриат по внутренним экзаменам СПбГТИ(ТУ).</span></div><div class="time glass"><b>11–20 августа</b><span><strong>Вступительные испытания</strong>Период проведения внутренних испытаний для платного приёма.</span></div><div class="time glass"><b>20 августа</b><span><strong>Завершение приёма документов</strong>Для поступающих по ЕГЭ и в магистратуру.</span></div><div class="time glass"><b>28–30 августа</b><span><strong>Договоры и приказы</strong>Завершение заключения договоров и зачисление на основные места.</span></div></div></section>
+
+    <section id="sources" class="shell block"><div class="section-head"><div><p class="eyebrow">Официальные источники</p><h2>Документы приёма</h2></div><p>Ссылки оставлены прямо на сайте для быстрой сверки перед публикацией и подачей документов.</p></div><div class="source-grid"><a class="source glass" href="https://gtifem.ru/abiturientam/" target="_blank" rel="noopener">Портал абитуриента ФЭМ ↗</a><a class="source glass" href="https://gtifem.ru/abiturientam/bakalavriat/" target="_blank" rel="noopener">Бакалавриат ↗</a><a class="source glass" href="https://gtifem.ru/abiturientam/magistratura/" target="_blank" rel="noopener">Магистратура ↗</a><a class="source glass" href="https://gtifem.ru/abiturientam/kolledzh/" target="_blank" rel="noopener">СПО / колледж ↗</a><a class="source glass" href="https://zfem.ru" target="_blank" rel="noopener">СДО ФЭМ для заочных форм ↗</a></div><div id="iosInstall" class="install glass"><h3>Добавить на экран iPhone</h3><p>Открой сайт в Safari → «Поделиться» → «На экран Домой». Иконка и PWA-настройки уже добавлены.</p></div></section>
+  </main>
+
+  <div class="mobilebar glass"><a href="#programs">⌕<span>Программы</span></a><a href="#programs" data-mobile-form="Очная">◉<span>Очная</span></a><a href="#calc">％<span>Скидки</span></a><button id="themeMobile" type="button">◐<span>Тема</span></button></div>
+  <footer class="footer shell">СПбГТИ(ТУ) · ФЭМ · справочник приёмной комиссии 2026 · тёмная финальная версия без старой светлой сборки</footer>
+  <script>
+window.FEM_PROGRAMS = [
+  {
+    "level": "Бакалавриат",
+    "form": "Очная",
+    "code": "38.03.01",
+    "name": "Экономика",
+    "price": 260000,
+    "foreign": 289000,
+    "years": "4 года",
+    "budget": "2**",
+    "contract": 30,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "Фундаментальное экономическое направление: бухгалтерская деятельность, социально‑экономические процессы, налоговый учёт, банковская и страховая сфера.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochnoe-obuchenie/ekonomika-ochnoe/",
+    "tag": "экономика"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очная",
+    "code": "38.03.02",
+    "name": "Маркетинг",
+    "price": 260000,
+    "foreign": 289000,
+    "years": "4 года",
+    "budget": "1**",
+    "contract": 21,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "Изучение потребностей клиентов, продвижение продуктов и услуг, анализ рынков и конкурентов.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochnoe-obuchenie/marketing-ochnoe/",
+    "tag": "менеджмент"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очная",
+    "code": "38.03.02",
+    "name": "Финансовый менеджмент",
+    "price": 260000,
+    "foreign": 289000,
+    "years": "4 года",
+    "budget": "1**",
+    "contract": 21,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "Управление финансами компании, контроль финансовых процессов, работа с прибылью, рисками и инвестиционными решениями.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochnoe-obuchenie/finansovyy-menedzhment-ochnoe/",
+    "tag": "финансы"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очная",
+    "code": "38.03.02",
+    "name": "Логистика",
+    "price": 260000,
+    "foreign": 289000,
+    "years": "4 года",
+    "budget": "1**",
+    "contract": 22,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "Организация доставки, управление цепочками поставок, снижение затрат и сроков перевозки при сохранении безопасности.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochnoe-obuchenie/logistika-ochnoe/",
+    "tag": "логистика"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очная",
+    "code": "38.03.02",
+    "name": "Производственный менеджмент",
+    "price": 260000,
+    "foreign": 289000,
+    "years": "4 года",
+    "budget": "1**",
+    "contract": 21,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "Управление производственными процессами, распределение обязанностей, организация работы команд и подразделений.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochnoe-obuchenie/proizvodstvennyy-menedzhment-ochnoe/",
+    "tag": "менеджмент"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очная",
+    "code": "38.03.03",
+    "name": "Управление персоналом",
+    "price": 260000,
+    "foreign": 289000,
+    "years": "4 года",
+    "budget": "1**",
+    "contract": 12,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "HR‑менеджмент, мотивация коллектива, здоровые отношения внутри команды и развитие персонала.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochnoe-obuchenie/upravlenie-personalom-ochnoe/",
+    "tag": "hr"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очная",
+    "code": "38.03.05",
+    "name": "Бизнес-информатика",
+    "price": 260000,
+    "foreign": 289000,
+    "years": "4 года",
+    "budget": "1**",
+    "contract": 60,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Информатика",
+        45
+      ]
+    ],
+    "about": "IT для бизнеса: выбор информационных технологий, поддержка принятия решений, оптимизация бизнес‑процессов.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochnoe-obuchenie/biznes-informatika-ochnoe/",
+    "tag": "it"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очная",
+    "code": "42.03.01",
+    "name": "Реклама и PR",
+    "price": 270000,
+    "foreign": 300000,
+    "years": "4 года",
+    "budget": "2**",
+    "contract": 50,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Обществознание",
+        45
+      ],
+      [
+        "Иностранный / История / Литература",
+        40
+      ]
+    ],
+    "about": "Рекламные ходы, креативные решения, PR‑коммуникации и каналы взаимодействия с аудиторией.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochnoe-obuchenie/reklama-i-pr-ochnoe/",
+    "tag": "pr"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очно-заочная",
+    "code": "38.03.01",
+    "name": "Экономика",
+    "price": 80000,
+    "foreign": 90000,
+    "years": "4 года 10 месяцев",
+    "budget": "нет",
+    "contract": 254,
+    "minpay": 29000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "Фундаментальное экономическое направление: бухгалтерская деятельность, социально‑экономические процессы, налоговый учёт, банковская и страховая сфера. Формат с элементами электронной образовательной среды, занятия вечером два раза в неделю.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochno-zaochnaya/ekonomika-zaochnoe4790/",
+    "tag": "экономика"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очно-заочная",
+    "code": "38.03.02",
+    "name": "Маркетинг",
+    "price": 65000,
+    "foreign": 72000,
+    "years": "4 года 10 месяцев",
+    "budget": "нет",
+    "contract": 200,
+    "minpay": 29000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "Изучение потребностей клиентов, продвижение продуктов и услуг, анализ рынков и конкурентов. Формат с элементами электронной образовательной среды, занятия вечером два раза в неделю.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochno-zaochnaya/marketing-zaochnoe4525/",
+    "tag": "менеджмент"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очно-заочная",
+    "code": "38.03.02",
+    "name": "Финансовый менеджмент",
+    "price": 65000,
+    "foreign": 72000,
+    "years": "4 года 10 месяцев",
+    "budget": "нет",
+    "contract": 200,
+    "minpay": 29000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "Управление финансами компании, контроль финансовых процессов, работа с прибылью, рисками и инвестиционными решениями. Формат с элементами электронной образовательной среды, занятия вечером два раза в неделю.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochno-zaochnaya/finansovyy-menedzhment-zaochnoe2088/",
+    "tag": "финансы"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очно-заочная",
+    "code": "38.03.02",
+    "name": "Логистика",
+    "price": 65000,
+    "foreign": 72000,
+    "years": "4 года 10 месяцев",
+    "budget": "нет",
+    "contract": 200,
+    "minpay": 29000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "Организация доставки, управление цепочками поставок, снижение затрат и сроков перевозки при сохранении безопасности. Формат с элементами электронной образовательной среды, занятия вечером два раза в неделю.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochno-zaochnaya/logistika-zaochnoe5235/",
+    "tag": "логистика"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очно-заочная",
+    "code": "38.03.02",
+    "name": "Производственный менеджмент",
+    "price": 65000,
+    "foreign": 72000,
+    "years": "4 года 10 месяцев",
+    "budget": "нет",
+    "contract": 200,
+    "minpay": 29000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "Управление производственными процессами, распределение обязанностей, организация работы команд и подразделений. Формат с элементами электронной образовательной среды, занятия вечером два раза в неделю.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochno-zaochnaya/proizvodstvennyy-menedzhment-zaochnoe2879/",
+    "tag": "менеджмент"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очно-заочная",
+    "code": "38.03.03",
+    "name": "Управление персоналом",
+    "price": 65000,
+    "foreign": 72000,
+    "years": "4 года 10 месяцев",
+    "budget": "нет",
+    "contract": 200,
+    "minpay": 29000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Иностранный язык",
+        45
+      ]
+    ],
+    "about": "HR‑менеджмент, мотивация коллектива, здоровые отношения внутри команды и развитие персонала. Формат с элементами электронной образовательной среды, занятия вечером два раза в неделю.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochno-zaochnaya/upravlenie-personalom-zaochnoe285/",
+    "tag": "hr"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очно-заочная",
+    "code": "38.03.05",
+    "name": "Бизнес-информатика",
+    "price": 65000,
+    "foreign": 72000,
+    "years": "4 года 10 месяцев",
+    "budget": "нет",
+    "contract": 200,
+    "minpay": 29000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Обществознание / История / Информатика",
+        45
+      ]
+    ],
+    "about": "IT для бизнеса: выбор информационных технологий, поддержка принятия решений, оптимизация бизнес‑процессов. Формат с элементами электронной образовательной среды, занятия вечером два раза в неделю.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochno-zaochnaya/biznes-informatika-zaochnoe8890/",
+    "tag": "it"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очно-заочная",
+    "code": "42.03.01",
+    "name": "Реклама и PR",
+    "price": 80000,
+    "foreign": 90000,
+    "years": "4 года 10 месяцев",
+    "budget": "нет",
+    "contract": 30,
+    "minpay": 29000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Обществознание",
+        45
+      ],
+      [
+        "Иностранный / История / Литература",
+        40
+      ]
+    ],
+    "about": "Рекламные ходы, креативные решения, PR‑коммуникации и каналы взаимодействия с аудиторией. Формат с элементами электронной образовательной среды, занятия вечером два раза в неделю.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochno-zaochnaya/reklama-i-pr-zaochnoe3647/",
+    "tag": "pr"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Заочная",
+    "code": "42.03.01",
+    "name": "Реклама и PR",
+    "price": 70000,
+    "foreign": 80000,
+    "years": "4 года 10 месяцев",
+    "budget": "нет",
+    "contract": 75,
+    "minpay": 27500,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Обществознание",
+        45
+      ],
+      [
+        "Иностранный / История / Литература",
+        40
+      ]
+    ],
+    "about": "Заочное обучение по рекламе и PR с применением электронной образовательной среды.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/zaochnoe-obuchenie/reklama-i-pr-zaochnoe/",
+    "tag": "pr"
+  },
+  {
+    "level": "Магистратура",
+    "form": "Очная",
+    "code": "38.04.02",
+    "name": "Инновационный менеджмент",
+    "price": 281500,
+    "foreign": 313000,
+    "years": "2 года",
+    "budget": "нет",
+    "contract": 60,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Конкурс среднего балла диплома",
+        0
+      ],
+      [
+        "Индивидуальные достижения",
+        0
+      ]
+    ],
+    "about": "Продвинутый уровень управления бизнес‑процессами, персоналом, производственными системами и стратегическими решениями.",
+    "url": "https://gtifem.ru/abiturientam/magistratura/ochnoe-obuchenie/innovatsionnyy-menedzhment-ochnoe/",
+    "tag": "магистратура"
+  },
+  {
+    "level": "Магистратура",
+    "form": "Заочная",
+    "code": "38.04.02",
+    "name": "Инновационный менеджмент",
+    "price": 60000,
+    "foreign": 67000,
+    "years": "2,5 года",
+    "budget": "нет",
+    "contract": 100,
+    "minpay": 22700,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Конкурс среднего балла диплома",
+        0
+      ],
+      [
+        "Индивидуальные достижения",
+        0
+      ]
+    ],
+    "about": "Заочная магистратура с применением электронной образовательной среды и очными периодами промежуточной аттестации.",
+    "url": "https://gtifem.ru/abiturientam/magistratura/zaochnoe-obuchenie/innovatsionnyy-menedzhment-zaochnoe/",
+    "tag": "магистратура"
+  },
+  {
+    "level": "СПО",
+    "form": "Очная",
+    "code": "38.02.01",
+    "name": "Экономика и бухгалтерский учёт",
+    "price": 160000,
+    "foreign": 178000,
+    "years": "1 год 10 месяцев",
+    "budget": "нет",
+    "contract": 60,
+    "minpay": 30000,
+    "deadline": "20 июня — 15 августа",
+    "exams": [
+      [
+        "Конкурс среднего балла аттестата",
+        0
+      ],
+      [
+        "ЕГЭ не требуется",
+        0
+      ]
+    ],
+    "about": "Бухгалтерский учёт, налогообложение, расчёты с бюджетом, зарплата, основы аудита и финансовых операций.",
+    "url": "https://gtifem.ru/abiturientam/kolledzh/ochnoe-obuchenie/kolledzh-och/",
+    "tag": "спо"
+  },
+  {
+    "level": "СПО",
+    "form": "Заочная",
+    "code": "38.02.01",
+    "name": "Экономика и бухгалтерский учёт",
+    "price": 47000,
+    "foreign": 57500,
+    "years": "2 года 10 месяцев",
+    "budget": "нет",
+    "contract": 120,
+    "minpay": 19500,
+    "deadline": "20 июня — 20 октября",
+    "exams": [
+      [
+        "Конкурс среднего балла аттестата",
+        0
+      ],
+      [
+        "ЕГЭ не требуется",
+        0
+      ]
+    ],
+    "about": "Заочная программа СПО по экономике и бухгалтерскому учёту, поступление по среднему баллу документа об образовании.",
+    "url": "https://gtifem.ru/abiturientam/kolledzh/zaochnoe-obuchenie/kolledzh-zao6932/",
+    "tag": "спо"
+  }
+];
+
+  </script>
+  <script>
+
+const $ = (s, r=document) => r.querySelector(s);
+const $$ = (s, r=document) => [...r.querySelectorAll(s)];
+const fmt = n => new Intl.NumberFormat('ru-RU').format(Number(n||0)) + ' ₽';
+const forms = ['Очная','Очно-заочная','Заочная'];
+let level = 'Все';
+let formFilter = 'Все';
+let q = '';
+let selectedForms = {};
+
+function keyOf(p){ return `${p.level}|${p.code}|${p.name}`; }
+function groupPrograms(){
+  const map = new Map();
+  window.FEM_PROGRAMS.forEach(p=>{
+    const k = keyOf(p);
+    if(!map.has(k)) map.set(k, {key:k, level:p.level, code:p.code, name:p.name, tag:p.tag, variants:[]});
+    map.get(k).variants.push(p);
+  });
+  map.forEach(g => g.variants.sort((a,b)=>forms.indexOf(a.form)-forms.indexOf(b.form)));
+  return [...map.values()];
+}
+function chipHTML(items, dataName){
+  return items.map((x,i)=>`<button class="chip ${i===0?'active':''}" data-${dataName}="${x}">${x}</button>`).join('');
+}
+$('#levelFilters').innerHTML = chipHTML(['Все','Бакалавриат','Магистратура','СПО'],'level');
+$('#formFilters').innerHTML = chipHTML(['Все','Очная','Очно-заочная','Заочная'],'form');
+
+function pickVariant(g){
+  const available = g.variants.map(v=>v.form);
+  let wanted = selectedForms[g.key];
+  if(formFilter !== 'Все' && available.includes(formFilter)) wanted = formFilter;
+  if(!wanted || !available.includes(wanted)) wanted = g.variants[0].form;
+  selectedForms[g.key] = wanted;
+  return g.variants.find(v=>v.form === wanted) || g.variants[0];
+}
+function render(){
+  const text = q.trim().toLowerCase();
+  let groups = groupPrograms().filter(g => {
+    const hay = `${g.level} ${g.code} ${g.name} ${g.tag} ${g.variants.map(v=>`${v.form} ${v.about}`).join(' ')}`.toLowerCase();
+    const hasForm = formFilter === 'Все' || g.variants.some(v => v.form === formFilter);
+    return (level === 'Все' || g.level === level) && hasForm && (!text || hay.includes(text));
+  });
+  $('#countGroups').textContent = groupPrograms().length;
+  $('#cards').innerHTML = groups.map(g => {
+    const p = pickVariant(g);
+    const available = new Set(g.variants.map(v=>v.form));
+    const formButtons = forms.map(f => {
+      const disabled = available.has(f) ? '' : 'disabled';
+      const active = p.form === f ? 'active' : '';
+      return `<button class="form-btn ${active}" data-program-key="${g.key}" data-select-form="${f}" ${disabled}>${f}</button>`;
+    }).join('');
+    const exams = (p.exams||[]).map(e=>`${e[0]}${e[1] ? ` — ${e[1]}` : ''}`).join('; ');
+    return `<article class="program glass" data-key="${g.key}">
+      <div class="meta"><span class="pill">${g.level}</span><span class="pill">${g.code}</span><span class="pill">${p.form}</span></div>
+      <h3>${g.name}</h3>
+      <p class="about">${p.about}</p>
+      <div class="form-picker" aria-label="Выбор формы обучения">${formButtons}</div>
+      <div class="facts">
+        <div class="fact"><small>Стоимость РФ</small><b>${fmt(p.price)}</b></div>
+        <div class="fact"><small>Срок</small><b>${p.years}</b></div>
+        <div class="fact"><small>Бюджет</small><b>${p.budget}</b></div>
+        <div class="fact"><small>Контракт</small><b>${p.contract}</b></div>
+        <div class="fact"><small>Первый платёж</small><b>${fmt(p.minpay)}</b></div>
+        <div class="fact"><small>Документы</small><b>${p.deadline}</b></div>
+      </div>
+      <p class="exams"><b>Вступительные:</b> ${exams}.</p>
+      <a class="more" target="_blank" rel="noopener" href="${p.url}">Официальная страница ↗</a>
+    </article>`;
+  }).join('') || `<div class="empty glass"><h3>Подходящих программ не найдено.</h3><p class="fineprint">Смените уровень, форму обучения или поисковый запрос.</p></div>`;
+  calc();
+}
+function setFilter(container, btn){
+  [...container.children].forEach(x=>x.classList.remove('active'));
+  btn.classList.add('active');
+}
+$('#levelFilters').addEventListener('click',e=>{const b=e.target.closest('.chip'); if(!b)return; setFilter($('#levelFilters'),b); level=b.dataset.level; render();});
+$('#formFilters').addEventListener('click',e=>{const b=e.target.closest('.chip'); if(!b)return; setFilter($('#formFilters'),b); formFilter=b.dataset.form; render();});
+$('#cards').addEventListener('click',e=>{const b=e.target.closest('[data-select-form]'); if(!b || b.disabled)return; selectedForms[b.dataset.programKey] = b.dataset.selectForm; render();});
+$('#search').addEventListener('input',e=>{q=e.target.value; render();});
+
+function basePrice(category, form){
+  if(category === 'master') return form === 'Заочная' ? 98000 : 244000;
+  if(category === 'spo') return form === 'Заочная' ? 65000 : 130000;
+  if(category === 'pr') return form === 'Заочная' ? 90000 : form === 'Очно-заочная' ? 120000 : 260000;
+  return form === 'Заочная' ? 78000 : form === 'Очно-заочная' ? 110000 : 260000;
+}
+function calc(){
+  const category = $('#calcCategory').value;
+  const form = $('#calcForm').value;
+  const score = Number($('#score').value || 0);
+  const diploma = $('#diploma').value;
+  let discount = 0;
+  let reason = 'скидка не применена';
+  if(category === 'spo'){
+    if(score >= 4.6){discount=.40; reason='средний балл 4,6–5,0'}
+    else if(score >= 4.1){discount=.30; reason='средний балл 4,1–4,5'}
+    else if(score >= 3.7){discount=.20; reason='средний балл 3,7–4,0'}
+  } else if(category === 'master'){
+    if(diploma === 'fem-red'){discount=.50; reason='красный диплом ФЭМ'}
+    else if(diploma === 'spbti'){discount=.40; reason='выпускник СПбГТИ(ТУ)'}
+    else if(diploma === 'red'){discount=.25; reason='диплом с отличием другого вуза'}
+  } else {
+    const pr = category === 'pr';
+    if(score > (pr ? 260 : 250)){discount=.60; reason='высокая сумма баллов'}
+    else if(score >= (pr ? 240 : 230)){discount=.50; reason='средняя шкала скидки'}
+    else if(score >= (pr ? 210 : 200)){discount=.40; reason='средняя шкала скидки'}
+    else if(score >= (pr ? 190 : 180)){discount=.20; reason='минимальный диапазон скидки'}
+    if(diploma === 'red-spo'){discount=Math.max(discount,.50); reason='красный диплом СПО'}
+    else if(diploma === 'spo'){discount=Math.max(discount,.40); reason='диплом СПО'}
+  }
+  const price = Math.round(basePrice(category, form) * (1-discount));
+  $('#calcPrice').textContent = fmt(price);
+  $('#calcDesc').textContent = `Скидка ${Math.round(discount*100)}%, основание: ${reason}.`;
+}
+['calcCategory','calcForm','score','diploma'].forEach(id=>$('#'+id).addEventListener('input',calc));
+function applyTheme(dark){document.body.classList.toggle('dark',dark); localStorage.setItem('fem-theme',dark?'dark':'light');}
+$('#theme').addEventListener('click',()=>applyTheme(!document.body.classList.contains('dark')));
+$('#themeMobile').addEventListener('click',()=>applyTheme(!document.body.classList.contains('dark')));
+if(localStorage.getItem('fem-theme') === 'dark') applyTheme(true);
+document.querySelector('[data-mobile-form]')?.addEventListener('click',()=>{formFilter='Очная'; const btn=[...$('#formFilters').children].find(b=>b.dataset.form==='Очная'); if(btn){setFilter($('#formFilters'),btn); render();}});
+let deferredPrompt=null; window.addEventListener('beforeinstallprompt',e=>{e.preventDefault(); deferredPrompt=e;});
+$('#installBtn')?.addEventListener('click', async()=>{ if(deferredPrompt){deferredPrompt.prompt(); deferredPrompt=null;} else {document.getElementById('iosInstall')?.classList.add('show'); location.hash='sources';}});
+// Service Worker purposely not registered in this build: clears old cached versions instead of caching new ones.
+if(/iphone|ipad|ipod/i.test(navigator.userAgent)) document.getElementById('iosInstall')?.classList.add('show');
+render();
+
+console.log('Fempriem dark-only final build', window.__FEM_VERSION);
+
+  </script>
+</body>
+</html>
