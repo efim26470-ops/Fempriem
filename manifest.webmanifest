@@ -1,68 +1,15 @@
 {
-  "name": "ФЭМ СПбГТИ — приём 2026",
-  "short_name": "ФЭМ 2026",
-  "description": "Актуальные программы, стоимость, экзамены и сроки приёма СПбГТИ(ТУ) на 2026/2027 учебный год.",
-  "start_url": "./index.html",
-  "scope": "./",
+  "name": "ФЭМ Приём 2026",
+  "short_name": "ФЭМ Приём",
+  "start_url": "./",
   "display": "standalone",
-  "background_color": "#f5f5f7",
-  "theme_color": "#0071e3",
-  "lang": "ru",
-  "orientation": "any",
+  "background_color": "#eef4ff",
+  "theme_color": "#1463ff",
   "icons": [
     {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    },
-    {
-      "src": "maskable-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "maskable-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Бакалавриат",
-      "url": "./index.html#programs",
-      "icons": [
-        {
-          "src": "icon-96.png",
-          "sizes": "96x96"
-        }
-      ]
-    },
-    {
-      "name": "Калькулятор скидки",
-      "url": "./index.html#discounts",
-      "icons": [
-        {
-          "src": "icon-96.png",
-          "sizes": "96x96"
-        }
-      ]
-    },
-    {
-      "name": "Документы",
-      "url": "./index.html#sources",
-      "icons": [
-        {
-          "src": "icon-96.png",
-          "sizes": "96x96"
-        }
-      ]
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ]
 }
