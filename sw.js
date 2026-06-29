@@ -1,5 +1,5 @@
 // Fempriem final cleanup service worker. It intentionally does NOT cache.
-const FEM_BUILD = 'dark-only-final-20260629-prices-fix';
+const FEM_BUILD = 'dark-only-final-20260629-forms-fix';
 self.addEventListener('install', event => { self.skipWaiting(); });
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {

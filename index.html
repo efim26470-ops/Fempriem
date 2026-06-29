@@ -10,9 +10,9 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="ФЭМ Приём">
   <title>ФЭМ СПбГТИ(ТУ) — приём 2026</title>
-  <link rel="manifest" href="manifest.webmanifest?v=dark-final-20260629-prices">
-  <link rel="icon" href="icon.svg?v=dark-final-20260629-prices">
-  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=dark-final-20260629-prices">
+  <link rel="manifest" href="manifest.webmanifest?v=dark-final-20260629-forms">
+  <link rel="icon" href="icon.svg?v=dark-final-20260629-forms">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png?v=dark-final-20260629-forms">
   <style>
 
 :root{--bg:#edf4ff;--text:#0d1424;--muted:#60708b;--card:rgba(255,255,255,.64);--card2:rgba(255,255,255,.42);--line:rgba(22,35,64,.12);--blue:#0b5cff;--cyan:#00a7ff;--green:#28c76f;--violet:#7c3aed;--shadow:0 28px 90px rgba(16,70,160,.18);--radius:30px;--blur:blur(24px)}
@@ -68,7 +68,7 @@ section[id] { scroll-margin-top: 112px; }
 <body class="dark">
 
   <script>
-    window.__FEM_VERSION = 'dark-only-final-20260629-prices-fix';
+    window.__FEM_VERSION = 'dark-only-final-20260629-forms-fix';
     (function clearOldFempriemBuilds(){
       try {
         if ('serviceWorker' in navigator) {
@@ -167,9 +167,69 @@ section[id] { scroll-margin-top: 112px; }
   </main>
 
   <div class="mobilebar glass"><a href="#programs">⌕<span>Программы</span></a><a href="#programs" data-mobile-form="Очная">◉<span>Очная</span></a><a href="#calc">％<span>Скидки</span></a><button id="themeMobile" type="button">◐<span>Тема</span></button></div>
-  <footer class="footer shell">СПбГТИ(ТУ) · ФЭМ · справочник приёмной комиссии 2026 · тёмная финальная версия без старой светлой сборки</footer>
+  <footer class="footer shell">СПбГТИ(ТУ) · ФЭМ · справочник приёмной комиссии 2026 · тёмная финальная версия: добавлены очные Биоэкономика и Прикладная информатика</footer>
   <script>
 window.FEM_PROGRAMS = [
+  {
+    "level": "Бакалавриат",
+    "form": "Очная",
+    "code": "19.03.01",
+    "name": "Биоэкономика",
+    "price": 288000,
+    "foreign": 320000,
+    "years": "4 года",
+    "budget": "1**",
+    "contract": 30,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Химия",
+        40
+      ],
+      [
+        "Биология / Физика",
+        40
+      ]
+    ],
+    "about": "Экономически выгодные и экологически устойчивые модели использования биологических ресурсов, зелёные технологии, циркулярная экономика и ответственное ресурсопользование.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochnoe-obuchenie/bioekonomika/",
+    "tag": "биоэкономика"
+  },
+  {
+    "level": "Бакалавриат",
+    "form": "Очная",
+    "code": "09.03.03",
+    "name": "Прикладная информатика в экономике",
+    "price": 260000,
+    "foreign": 320000,
+    "years": "4 года",
+    "budget": "1**",
+    "contract": 30,
+    "minpay": 50000,
+    "deadline": "20 июня — 20 августа",
+    "exams": [
+      [
+        "Русский язык",
+        40
+      ],
+      [
+        "Математика",
+        40
+      ],
+      [
+        "Информатика / Физика",
+        46
+      ]
+    ],
+    "about": "IT‑решения для экономики и бизнеса: базы данных, автоматизация процессов, анализ данных, ERP‑системы и оценка эффективности цифровых проектов.",
+    "url": "https://gtifem.ru/abiturientam/bakalavriat/ochnoe-obuchenie/prikladnaya-informatika-v-ekonomike/",
+    "tag": "прикладная информатика it"
+  },
   {
     "level": "Бакалавриат",
     "form": "Очная",
