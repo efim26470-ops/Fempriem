@@ -2,7 +2,7 @@
   "name": "ФЭМ · Приём 2026",
   "short_name": "ФЭМ 2026",
   "description": "Тёмный справочник приёмной комиссии ФЭМ СПбГТИ(ТУ)",
-  "start_url": "./?v=dark-final-20260627",
+  "start_url": "./?v=dark-final-20260629-prices",
   "scope": "./",
   "display": "standalone",
   "background_color": "#07101f",
